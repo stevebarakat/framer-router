@@ -1,0 +1,44 @@
+body {
+  font-family: Founders Grotesk, sans-serif;
+  background: hsl(244, 96%, 5%);
+  color: hsl(355, 89%, 61%);
+  overflow: hidden;
+}
+main {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 75vh;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 8px;
+  border-bottom: 1px solid #454545;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(355, 89%, 61%);
+}
+a:hover {
+  color: hsl(320, 45%, 51%);
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 8.25rem;
+}
+
+img {
+  width: 500px;
+}
+
+@font-face {
+  font-family: "Founders Grotesk";
+  src: url("./founders-grotesk-bold.woff") format("woff");
+}
